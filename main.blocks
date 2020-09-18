@@ -1,0 +1,27 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="sAMr$yJ_Qy^US2u?OJ$/">Player</variable><variable type="KIND_SpriteKind" id="w$p_oD_!G=3[]nVY?dEd">Projectile</variable><variable type="KIND_SpriteKind" id="a)RH{~/-w`u)@G?Q;i!u">Food</variable><variable type="KIND_SpriteKind" id="#m+,cdx1tzA?QnB2)S!r">Enemy</variable><variable id=":%b0J/|2K[V,pKKM4+VL">mySprite</variable><variable id="qVx}6l`}EeehmoUSuKN?">MainPlayer</variable></variables><block type="pxt-on-start" id="3+K*C)*0|37G($2`87BV" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor" id="Q?W]IAc,8;bXdjU|a)be"><field name="tilemap">tiles.createTilemap(hex`0a0008000202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020201010101010101010101`, img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,myTiles.tile2,myTiles.tile3], TileScale.Sixteen)</field><next><block type="particlesStartScreenAnimation" id="gDuX4N_~qGrGM3!+1XXx"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.starField</field><next><block type="variables_set" id="swKJ-G;KhxCX%+/B0mSb"><field name="VAR" id="qVx}6l`}EeehmoUSuKN?">MainPlayer</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="$j#Y9kj{Sh;0j/yJ)OQb"><value name="img"><shadow type="screen_image_picker" id="fJg@XQu|V]NB;1;atFxB"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 4 b 
+b d d c d 5 5 b 5 4 4 4 4 4 b . 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="^A0!)p$cja*wj!We9uf?"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="Bf?Ib8?{RuBx}g_|!xhp"><value name="sprite"><block type="variables_get" id="-DnZe}W%+oGbYUMojr)b"><field name="VAR" id="qVx}6l`}EeehmoUSuKN?">MainPlayer</field></block></value><value name="x"><shadow type="positionPicker" id=";o}#]wdymbzlU-aRRlBN"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="#|7y`f5Fh7AZN8zsDafW"><field name="index">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
